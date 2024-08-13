@@ -1,0 +1,259 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+.header {
+  background-color: #ffffff;
+}
+
+.nav {
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-span {
+  color: #2e2f42;
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.menu-link.menu-link_first {
+  color: #2e2f42;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+
+.contact-info a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-style: normal;
+}
+
+.contact-info a:hover,
+.contact-info a:focus {
+  color: #404bbf;
+}
+
+.contact-info a:active {
+  color: #4d5ae5;
+}
+
+/* Кнопка */
+.home-button:hover,
+.home-button:focus,
+.home-button:active {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+
+/* Main */
+
+/* Home Section */
+.home-section {
+  text-align: center;
+  background-color: #2e2f42;
+}
+
+.home-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.home-button {
+  background-color: #4d5ae5;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.home-button:hover,
+.home-button:focus,
+.home-button:active {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+
+/* Section Titles */
+.section-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+/* Qualities Section */
+.qualities-section {
+  text-align: center;
+}
+
+.quality-item {
+  background-color: #f5f4fa;
+}
+
+.quality-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.quality-description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* Team Section */
+.team-section {
+  text-align: center;
+  background-color: #f4f4fd;
+}
+
+.team-item {
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.team-name {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.team-role {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.team-role p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+  text-align: center;
+}
+
+.portfolio-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.portfolio-category {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.quality-description,
+.portfolio-category,
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.quality-description p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background-color: #2e2f42;
+}
+
+.footer .logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-span-footer {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
+
+/* Address */
+address {
+  font-style: normal;
+}
