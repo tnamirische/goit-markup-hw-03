@@ -92,6 +92,24 @@ img {
   color: #404bbf;
 }
 
+.contact-info ul {
+  display: flex;
+  gap: 40;
+}
+
+.contact-info li {
+  margin-right: 40px;
+}
+
+.contact-info li:last-child {
+  margin-right: 0;
+}
+
+.email-link {
+}
+.phone-link {
+}
+
 .contact-info a {
   font-weight: 500;
   font-size: 16px;
