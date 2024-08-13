@@ -15,6 +15,12 @@ a {
   text-decoration: none;
 }
 
+/* Image */
+
+img {
+  display: block;
+}
+
 /* Header */
 .header {
   background-color: #ffffff;
