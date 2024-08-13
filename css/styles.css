@@ -55,10 +55,16 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .logo-span {
   color: #2e2f42;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
 }
 
 .menu-link {
@@ -67,6 +73,13 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.menu-item {
+  margin-right: 40px;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 0;
 }
 
 .menu-link.menu-link_first {
