@@ -34,10 +34,11 @@ img {
   background-color: #f8f9fa;
 }
 .container {
-  max-width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
 }
 
 .nav {
