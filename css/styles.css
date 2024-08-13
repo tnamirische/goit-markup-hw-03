@@ -76,6 +76,7 @@ img {
 }
 .menu-item {
   margin-right: 40px;
+  padding: 24px 0;
 }
 
 .menu-item:not(:last-child) {
