@@ -28,6 +28,10 @@ a {
   background-color: #ffffff;
 }
 
+.header-container {
+  display: flex;
+}
+
 .nav {
   justify-content: space-between;
 }
