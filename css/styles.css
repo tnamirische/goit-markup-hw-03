@@ -21,6 +21,7 @@ ol {
   gap: 40px;
   flex-wrap: wrap;
   column-gap: 24px;
+  row-gap: 48px;
 }
 
 a {
@@ -324,6 +325,10 @@ a {
 
 .portfolio-category:nth-child(3n) {
   margin-right: 0;
+}
+
+.portfolio-category:nth-last-child(-n + 3) {
+  margin-bottom: 0;
 }
 
 .quality-description,
