@@ -19,6 +19,8 @@ ol {
   margin: 0;
   display: flex;
   gap: 40px;
+  flex-wrap: wrap;
+  column-gap: 24px;
 }
 
 a {
@@ -302,6 +304,7 @@ a {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .portfolio-category {
@@ -313,6 +316,16 @@ a {
   color: #434455;
 }
 
+.portfolio-title-category {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.portfolio-category:nth-child(3n) {
+  margin-right: 0;
+}
+
 .quality-description,
 .portfolio-category,
 .footer-text {
@@ -320,11 +333,6 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-
-.quality-description p {
-  font-size: 16px;
-  line-height: 1.5;
 }
 
 /* Footer */
