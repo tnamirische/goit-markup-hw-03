@@ -136,6 +136,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
 }
 
 .home-button {
@@ -146,6 +147,11 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .home-button:hover,
