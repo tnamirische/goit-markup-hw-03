@@ -31,7 +31,6 @@ a {
 }
 
 .header-container {
-  display: flex;
 }
 
 .container {
@@ -283,6 +282,8 @@ a {
 /* Portfolio Section */
 .portfolio-section {
   text-align: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-title {
