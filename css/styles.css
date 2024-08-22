@@ -176,6 +176,7 @@ a {
 /* Qualities Section */
 .qualities-section {
   text-align: center;
+  padding: 120px 0;
 }
 
 .quality-item {
