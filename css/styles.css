@@ -194,11 +194,15 @@ a {
   overflow: hidden;
 }
 
-.quality-item:first-child {
+.quality-list {
+  display: flex;
+}
+
+.quality-list:first-child {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
-.quality-item:last-child {
+.quality-list:last-child {
   margin-right: 0;
 }
 
