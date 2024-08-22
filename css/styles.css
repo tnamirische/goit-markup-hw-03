@@ -161,18 +161,6 @@ a {
   cursor: pointer;
 }
 
-/* Section Title */
-.section-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
 /* Qualities Section */
 .qualities-section {
   text-align: center;
@@ -236,11 +224,30 @@ a {
 .team-section {
   text-align: center;
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team-item {
   text-align: center;
   background-color: #ffffff;
+  padding: 120px 0;
+}
+
+.team-item:first-child {
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* Section Title */
+.section-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .team-name {
