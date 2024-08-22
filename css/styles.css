@@ -196,13 +196,15 @@ a {
 
 .quality-list {
   display: flex;
+  gap: 24px;
 }
 
-.quality-list:first-child {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+.quality-item:first-child {
+  /*flex-basis: calc((100% - 3 * 24px) / 4); */
+  width calc((100% - 3 * 24px) / 4);
 }
 
-.quality-list:last-child {
+.quality-item:last-child {
   margin-right: 0;
 }
 
