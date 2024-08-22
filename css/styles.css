@@ -259,6 +259,7 @@ a {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .team-role {
@@ -271,6 +272,9 @@ a {
   color: #434455;
 }
 
+.team-name-role {
+  padding: 32px 0;
+}
 .team-role p {
   font-size: 16px;
   line-height: 1.5;
