@@ -194,12 +194,12 @@ a {
   overflow: hidden;
 }
 
-.quality-item:last-child {
-  margin-right: 0;
+.quality-item:first-child {
+  flex-basis: calc ((100% - 72px) / 4);
 }
 
-.quality-item:first-child {
-  flex-basis: calc((100% - 72px) / 4);
+.quality-item:last-child {
+  margin-right: 0;
 }
 
 .quality-item {
