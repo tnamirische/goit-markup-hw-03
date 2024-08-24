@@ -204,7 +204,7 @@ a {
   gap: 24px;
 }
 
-.quality-item:first-child {
+.quality-item {
   width: calc((100% - 72px) / 4);
 }
 .quality-item:last-child {
@@ -253,14 +253,17 @@ a {
   padding: 120px 0;
 }
 
+.team-section ul {
+  padding-left: 0;
+}
+
 .team-item {
   text-align: center;
   background-color: #ffffff;
   padding: 120px 0;
-  margin-right: 24px;
 }
 
-.team-item:first-child {
+.team-item {
   border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
 }
