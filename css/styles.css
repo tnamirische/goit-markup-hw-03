@@ -214,9 +214,10 @@ a {
 
 .quality-item {
   width: calc((100% - 72px) / 4);
+  margin-right: 24px;
 }
 .quality-item:last-child {
-  margin-right: 0%;
+  margin-right: 0;
 }
 */ .qualities-list .quality-item {
   display: flex;
