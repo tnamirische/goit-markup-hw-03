@@ -17,11 +17,19 @@ ul,
 ol {
   list-style-type: none;
   margin: 0;
+  padding: 0;
   display: flex;
   gap: 40px;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
 }
 
 a {
