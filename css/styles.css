@@ -216,6 +216,7 @@ a {
   width: calc((100% - 72px) / 4);
   margin-right: 24px;
 }
+
 .quality-item:last-child {
   margin-right: 0;
 }
@@ -260,6 +261,10 @@ a {
   text-align: center;
   background-color: #f4f4fd;
   padding: 120px 0;
+}
+
+.team-list {
+  gap: 24px;
 }
 
 .team-section ul {
